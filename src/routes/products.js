@@ -4,11 +4,11 @@ const ctrlProducts = require('../controllers/products');
 
 const router = express.Router(); 
 
-router.get('/',ctrlProducts.getProducts) 
+router.get('/',ctrlProducts.getAllProducts) 
 
-router.get('/id/:id',ctrlProducts.getProductsById) 
+router.get('/id/:id',ctrlProducts.getProductById) 
 
-router.get('/nombre/:name',ctrlProducts.getProductsByName)
+router.get('/nombre/:name',ctrlProducts.getProductByName)
 
 router.post('/',ctrlProducts.addProduct) 
 

@@ -1,6 +1,6 @@
 require("dotenv").config(); 
 const mongoose = require('mongoose') 
-const products = require('../data/productos.json') //array object mock data
+const products = require('../data/products.json') //array object mock data
 const router = require('./routes/index') 
 const express = require('express') 
 

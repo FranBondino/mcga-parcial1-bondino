@@ -73,7 +73,7 @@ const getProductById = async (req, res) => {
          return res.status(200).json({
             data: newProduct,
             error: false,
-            msg: 'Prodcuto creado'
+            msg: 'Producto creado'
          })
     } catch (error){
         console.debug(error)
